@@ -1,0 +1,916 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.home .nav {
+    background-color: white;
+    box-shadow: 0 10px 60px black;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+
+
+}
+
+
+.home .nav #text {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home .nav a i {
+    font-size: 32px;
+    margin: 15px;
+    margin-left: 80px;
+    animation: ani 1s infinite alternate;
+
+}
+
+@keyframes ani {
+    to {
+        transform: scale(1.4);
+    }
+}
+
+.home .nav ul {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 5px;
+    margin-right: 80px;
+
+
+}
+
+.home .nav ul li {
+    margin: 15px;
+    font-size: 18px;
+
+}
+
+
+.home .nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home .nav ul li a:hover {
+
+    color: orange;
+}
+
+.home .nav ul li button {
+    width: 120px;
+    height: 40px;
+    border-radius: 60px;
+    border: orange 2px solid;
+    font-weight: bold;
+    position: relative;
+    bottom: 7px;
+    transition: all 1s;
+
+
+}
+
+.home .nav ul li button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.home .nav ul li button #logo {
+    color: orange;
+    position: relative;
+    left: 10px;
+}
+
+.home .display {
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+
+
+}
+
+.home .display .div1 {
+    width: 50%;
+    height: 400px;
+    margin: 100px;
+
+}
+
+.home .display .div1 h1 {
+    font-size: 60px;
+}
+
+.home .display .div1 p {
+    font-size: 30px;
+    color: gray;
+}
+
+.home .display .div1 button {
+    width: 150px;
+    height: 45px;
+    border-radius: 60px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 1s;
+    margin-top: 50px;
+}
+
+.home .display .div1 button:hover {
+    background-color: rgb(23, 195, 218);
+}
+
+.home .display .animation {
+    width: 50%;
+    height: 400px;
+
+
+}
+
+.home .display .animation i {
+    font-size: 400px;
+    margin: 100px;
+    animation: ani2 1.5s infinite;
+    position: absolute;
+    color: darkorange;
+
+}
+
+@keyframes ani2 {
+
+    0% {
+        top: 50px;
+    }
+
+    50% {
+        top: 60px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}
+
+.home .div2 {
+
+    width: 100%;
+    height: 170px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(200, 177, 177, 0.227);
+}
+
+.home .div2 img {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    transition: 1s all;
+
+}
+
+.home .div2 img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.home .how {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+
+.home .how h2 {
+    margin: 50px;
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+.home .div3 {
+    width: 100%;
+    display: flex;
+}
+
+.home .div3 img {
+    margin: 40px;
+}
+
+.home .div3 p {
+    margin: 40px;
+    font-size: 20px;
+}
+
+.home .div3 button {
+    width: 160px;
+    height: 45px;
+    background-color: #fff;
+    border: orange 2px solid;
+    color: orange;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    right: 65px;
+    transition: all 1s;
+}
+
+.home .div3 button #logo {
+    color: orange;
+    position: relative;
+    right: 2px;
+}
+
+.home .div3 button:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.home .who {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: solid black 1px;
+    margin: 50px 0px;
+
+}
+
+
+.home .who h3 {
+    margin: 50px;
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+.home .div4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 230px;
+}
+
+.home .div4 .par1 {
+    width: 50%;
+    height: 300px;
+
+
+
+}
+
+.home .div4 .par1 p {
+
+    margin: 0px 50px 20px 70px
+}
+
+.home .div4 .par1 ul {
+    margin-left: 90px;
+    list-style-type: none;
+}
+
+.home .div4 .par1 ul li {
+    margin-top: 10px;
+}
+
+.home .div4 .par2 {
+    width: 50%;
+    height: 300px;
+
+}
+
+.home .div4 .par2 p {
+    margin-right: 100px;
+}
+
+.home .div4 .par2 button {
+    width: 160px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: orange 2px solid;
+    color: orange;
+    font-weight: bold;
+    transition: all 1s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.home .div4 .par2 button:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.home .color {
+    width: 100%;
+    height: 1550px;
+    background-color: rgba(200, 177, 177, 0.227);
+}
+
+.home .cate {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.home .cate h4 {
+    font-size: 40px;
+    color: darkslategrey;
+    padding: 60px 0px;
+}
+
+.home .div5 {
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home .div5 .d1 {
+    width: 430px;
+    height: 290px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    transition: all 0.5s;
+
+}
+
+.home .div5 .d1:hover {
+    transform: translatey(-10px);
+}
+
+.home .div5 .d1 h5 {
+    background-color: orange;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+
+}
+
+.home .div5 .d1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.home .brands {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.home .brands h6 {
+    font-size: 40px;
+    color: darkslategrey;
+    border-bottom: solid black 1px;
+}
+
+.home .brands p {
+    margin: 15px 0px;
+}
+
+.home .brands img {
+    width: 250px;
+    height: 250px;
+    margin: 40px 80px;
+}
+
+.home .contact {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.home .contact h6 {
+    font-size: 40px;
+    color: darkslategrey;
+    border-bottom: solid 1px black;
+}
+
+.home .contact p {
+    margin: 30px 40px;
+}
+
+.home .div6 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.home .div6 img {
+    width: 700px;
+    height: 500px;
+    margin: 0px 0px 40px 50px;
+}
+
+.home .div6 table {
+    width: 600px;
+    height: 500px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 7px black;
+    border-top: solid orange 3px;
+    border-bottom: solid orange 3px;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.home .div6 table tr {
+
+    margin: 10px;
+    position: relative;
+
+
+}
+
+.home .div6 table tr td input {
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+    padding: 0px 100px 20px 0px;
+    border: orange solid 1px;
+}
+
+.home .div6 table tr th textarea {
+    width: 100%;
+    height: 60%;
+    padding: auto;
+    position: relative;
+    bottom: 50px;
+    border: orange solid 1px;
+
+}
+
+.home .div6 table tr td button {
+    position: relative;
+    bottom: 40px;
+    width: 190px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 1s;
+
+}
+
+.home .div6 table tr #button :hover {
+    background-color: rgb(23, 195, 218);
+}
+
+.home .social {
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.home .social #h7 {
+    margin: 20px;
+    font-size: 20px;
+    color: darkslategrey;
+
+}
+
+.home .social p {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.home .social i {
+    margin: 10px 0px 3px 20px;
+    font-size: 30px;
+    color: orange;
+    transition: all 1s;
+
+}
+
+.home .social i:hover {
+    color: rgb(23, 195, 218);
+    ;
+
+}
+
+.home .end {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .end p {
+    padding: 30px 90px;
+    font-size: 20px;
+}
+
+.home .end #text {
+    margin: 0px 0px 0px 400px;
+}
+
+.home .end #text a {
+    text-decoration: none;
+    color: black;
+}
+
+.home .end #text a:hover {
+    color: blue;
+}
+
+@media (max-width:760px) {
+    .home{
+        overflow-x: hidden;
+    }
+    .home .nav {
+        background-color: white;
+        box-shadow: 0 10px 60px black;
+        display: flex;
+        justify-content: space-between;
+        direction: rtl;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+
+
+
+    }
+
+    .home .nav ul {
+        display: none;
+        list-style-type: none;
+        position: relative;
+        top: 5px;
+        margin-right: 80px;
+
+
+    }
+
+    .home .display {
+        width: 100%;
+        height: 600px;
+        display: block;
+    }
+
+    .home .display .div1 {
+        width: 310px;
+        height: 200px;
+
+
+    }
+
+    .home .display .div1 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 30px;
+
+
+    }
+
+    .home .display .div1 p {
+        font-size: 25px;
+        color: gray;
+        position: relative;
+        right: 30px;
+
+
+    }
+
+    .home .display .div1 button {
+        width: 150px;
+        height: 45px;
+        border-radius: 60px;
+        border: none;
+        background-color: orange;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 1s;
+        margin: 30px 20px;
+        position: relative;
+        right: 30px;
+
+    }
+
+    .home .display .div1 button:hover {
+        background-color: rgb(23, 195, 218);
+    }
+
+    .home .display .animation {
+        width: 50%;
+        height: 400px;
+
+
+    }
+
+    .home .display .animation i {
+        font-size: 200px;
+        margin: 50px;
+        animation: ani2 1.5s infinite;
+        position: absolute;
+        color: darkorange;
+
+    }
+
+    @keyframes ani2 {
+
+        0% {
+            bottom: 80px;
+        }
+
+        50% {
+            bottom: 60px;
+        }
+
+        100% {
+            bottom: 80px;
+        }
+    }
+
+    .home .div2 {
+
+        width: 355px;
+        height: 500px;
+
+        background-color: red;
+        display: block;
+        justify-content: space-between;
+        background-color: rgba(200, 177, 177, 0.227);
+    }
+
+    .home .div2 img {
+        width: 100px;
+        height: 100px;
+        margin: 30px 60px 10px 0px;
+        transition: 1s all;
+        position: relative;
+        left: 40px;
+
+
+    }
+    .home .div3 {
+        width: 100%;
+        display: block;
+    }
+    .home .div3 img {
+        
+        width: 355px;
+        height: 250px;
+        margin: 50px auto;
+    }
+    
+    .home .div3 p {
+        margin: 10px 10px;
+        font-size: 20px;
+        
+    }
+    .home .div3 button {
+        width: 160px;
+        height: 45px;
+        background-color: #fff;
+        border: orange 2px solid;
+        color: orange;
+        border-radius: 5px;
+        font-weight: bold;
+        position: relative;
+        top: 30px;
+        right: 0px;
+        transition: all 1s;
+    }
+    .home .div4 {
+        font-size: 20px;
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        height: 230px;
+    
+        font-size: 17px;
+    }
+    .home .div4 .par1 {
+        width: 340px;
+        height: 300px;
+    
+    margin: auto;
+    
+    
+    }
+    
+    .home .div4 .par1 p {
+    
+        margin: 10px ;
+    }
+    
+    .home .div4 .par1 ul {
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    
+    .home .div4 .par1 ul li {
+        margin-top: 15px;
+    }
+    
+    .home .div4 .par2 {
+        width: 340px;
+        height: 300px;
+        margin: 5px auto;
+    }
+    
+    .home .div4 .par2 p {
+        margin: auto;
+    }
+    
+    .home .div4 .par2 button {
+        width: 160px;
+        height: 45px;
+        margin-top: 30px;
+        background-color: #fff;
+        border: orange 2px solid;
+        color: orange;
+        font-weight: bold;
+        transition: all 1s;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .home .color {
+        width: 100%;
+        height: 4100px;
+        background-color: rgba(200, 177, 177, 0.227);
+    }
+    .home .cate {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        margin-top: 350px;
+    
+    }
+    .home .div5 {
+        width: 350px;
+        height: 900px;
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .home .div5 .d1 {
+        width: 430px;
+        height: 290px;
+        border-radius: 30px;
+        margin: 10px 10px 10px 10px;
+        position: relative;
+        transition: all 0.5s;
+    
+    }
+    .home .brands {
+        width: 350px;
+        height: 150px;
+        text-align: center;
+        margin-top: 1890px;
+        justify-content: space-between;
+    }
+    .home .brands h6 {
+        font-size: 40px;
+        color: darkslategrey;
+        border-bottom: solid black 1px;
+    }
+    
+    .home .brands p {
+        margin: 15px 0px;
+    }
+    
+    .home .brands img {
+        width: 250px;
+        height: 250px;
+        margin: 30px 50px;
+    }
+    .home .contact {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    
+    }
+
+    .home .div6 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+.home .div6 img {
+    width: 354px;
+    height: 300px;
+    margin: 90px 0px 40px 0px;
+}
+
+.home .div6 table {
+    width: 190px;
+    height: 500px;
+    margin-left: 2px;
+    box-shadow: 0px 0px 7px black;
+    border-top: solid orange 3px;
+    border-bottom: solid orange 3px;
+    font-size: 25px;
+    text-align: center;}
+    
+.home .div6 table tr {
+
+    margin: 0px;
+    position: relative;
+
+
+}
+
+.home .div6 table tr td input {
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+    padding: 0px 7px 20px 0px;
+    border: orange solid 1px;
+}
+
+.home .div6 table tr th textarea {
+    width: 300px;
+    height: 60%;
+    padding: auto;
+    position: relative;
+    bottom: 50px;
+    border: orange solid 1px;
+
+}
+
+.home .div6 table tr td button {
+    position: relative;
+    bottom: 40px;
+    width: 190px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 1s;
+
+}
+.home .end {
+    width: 354px;
+    height: 190px;
+    background-color: darkslategrey;
+    display: block;
+    
+}
+.home .end p {
+    padding: 0px 0px;
+    font-size: 18px;
+}
+
+.home .end #text {
+    margin: 30px 0px 0px 10px;
+}
+
+.home .end #text a {
+    text-decoration: none;
+    color: black;
+}
+
+
+}
+
