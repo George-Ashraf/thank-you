@@ -531,6 +531,7 @@
     background-color: darkslategrey;
     display: flex;
     justify-content: space-between;
+    color: #fff;
 }
 
 .home .end p {
@@ -544,7 +545,7 @@
 
 .home .end #text a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .home .end #text a:hover {
@@ -568,6 +569,18 @@
 
 
 
+    }
+    .home .nav i{
+        position: relative;
+        right: 0px;
+    }
+    .home .nav #text {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        right: 100px;
     }
 
     .home .nav ul {
@@ -596,7 +609,7 @@
     .home .display .div1 h1 {
         font-size: 30px;
         position: relative;
-        right: 30px;
+        right: 60px;
 
 
     }
@@ -605,7 +618,7 @@
         font-size: 25px;
         color: gray;
         position: relative;
-        right: 30px;
+        right: 60px;
 
 
     }
@@ -622,7 +635,7 @@
         transition: all 1s;
         margin: 30px 20px;
         position: relative;
-        right: 30px;
+        right: 60px;
 
     }
 
@@ -891,14 +904,14 @@
 
 }
 .home .end {
-    width: 354px;
+    width: 355px;
     height: 190px;
     background-color: darkslategrey;
     display: block;
     
 }
 .home .end p {
-    padding: 0px 0px;
+    padding: 16px 0px;
     font-size: 18px;
 }
 
@@ -908,7 +921,7 @@
 
 .home .end #text a {
     text-decoration: none;
-    color: black;
+    color:white;
 }
 
 
