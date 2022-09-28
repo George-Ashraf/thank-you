@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.dark{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #fff;
+}
 
 .home {
     height: 100vh;
@@ -62,7 +66,6 @@
 
 }
 
-
 .home .nav ul li a {
     text-decoration: none;
     color: black;
@@ -122,7 +125,18 @@
     color: gray;
 }
 
-.home .display .div1 button {
+.home .display .div1 .mode{
+    position: relative;
+    right: 90px;
+    width: 85px;
+    height: 25px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+}
+.home .display .div1 a button {
     width: 150px;
     height: 45px;
     border-radius: 60px;
@@ -135,7 +149,7 @@
     margin-top: 50px;
 }
 
-.home .display .div1 button:hover {
+.home .display .div1 a button:hover {
     background-color: rgb(23, 195, 218);
 }
 
@@ -623,7 +637,7 @@
 
     }
 
-    .home .display .div1 button {
+    .home .display .div1 a button {
         width: 150px;
         height: 45px;
         border-radius: 60px;
@@ -638,8 +652,20 @@
         right: 60px;
 
     }
+    .home .display .div1 .mode{
+        position: relative;
+        right: 90px;
+        width: 85px;
+        height: 25px;
+        border-radius: 20px;
+        color: #fff;
+        background-color: orange;
+        border: none;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
 
-    .home .display .div1 button:hover {
+    .home .display .div1 a button:hover {
         background-color: rgb(23, 195, 218);
     }
 
@@ -653,25 +679,11 @@
     .home .display .animation i {
         font-size: 200px;
         margin: 50px;
+        margin-top: 400px;
         animation: ani2 1.5s infinite;
         position: absolute;
         color: darkorange;
 
-    }
-
-    @keyframes ani2 {
-
-        0% {
-            bottom: 80px;
-        }
-
-        50% {
-            bottom: 60px;
-        }
-
-        100% {
-            bottom: 80px;
-        }
     }
 
     .home .div2 {
