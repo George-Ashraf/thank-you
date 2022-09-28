@@ -567,6 +567,10 @@
 }
 
 @media (max-width:760px) {
+    .dark{
+        background-color: rgba(0, 0, 0, 0.932);
+        color: #fff;
+    }
     .home{
         overflow-x: hidden;
     }
