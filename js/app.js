@@ -1,8 +1,8 @@
 
 let button = document.querySelector(".mode")
 let body = document.querySelector("body")
-let nav = document.querySelector(".nav ")
-let li = document.querySelectorAll(".nav  a")
+let nav = document.querySelector("nav ")
+let li = document.querySelectorAll("nav  a")
 let head = document.querySelectorAll(".H")
 let table = document.querySelector("table")
 

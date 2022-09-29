@@ -2,19 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.dark{
+
+.dark {
     background-color: rgba(0, 0, 0, 0.932);
     color: #fff;
 }
-
-.home {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-
-}
-
-.home .nav {
+nav {
     background-color: white;
     box-shadow: 0 10px 60px black;
     display: flex;
@@ -28,15 +21,14 @@
 
 }
 
-
-.home .nav #text {
+nav #text {
     color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
 
-.home .nav a i {
+nav a i {
     font-size: 32px;
     margin: 15px;
     margin-left: 80px;
@@ -50,7 +42,7 @@
     }
 }
 
-.home .nav ul {
+nav ul {
     display: flex;
     list-style-type: none;
     position: relative;
@@ -60,23 +52,23 @@
 
 }
 
-.home .nav ul li {
+nav ul li {
     margin: 15px;
     font-size: 18px;
 
 }
 
-.home .nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-.home .nav ul li a:hover {
+nav ul li a:hover {
 
     color: orange;
 }
 
-.home .nav ul li button {
+nav ul li button {
     width: 120px;
     height: 40px;
     border-radius: 60px;
@@ -89,18 +81,18 @@
 
 }
 
-.home .nav ul li button:hover {
+nav ul li button:hover {
     background-color: orange;
     color: white;
 }
 
-.home .nav ul li button #logo {
+nav ul li button #logo {
     color: orange;
     position: relative;
     left: 10px;
 }
 
-.home .display {
+.display {
     width: 100%;
     height: 600px;
     display: flex;
@@ -109,23 +101,23 @@
 
 }
 
-.home .display .div1 {
+.display .div1 {
     width: 50%;
     height: 400px;
     margin: 100px;
 
 }
 
-.home .display .div1 h1 {
+.display .div1 h1 {
     font-size: 60px;
 }
 
-.home .display .div1 p {
+.display .div1 p {
     font-size: 30px;
     color: gray;
 }
 
-.home .display .div1 .mode{
+.display .div1 .mode {
     position: relative;
     right: 90px;
     width: 85px;
@@ -136,7 +128,8 @@
     border: none;
     font-weight: bold;
 }
-.home .display .div1 a button {
+
+.display .div1 a button {
     width: 150px;
     height: 45px;
     border-radius: 60px;
@@ -149,18 +142,18 @@
     margin-top: 50px;
 }
 
-.home .display .div1 a button:hover {
+.display .div1 a button:hover {
     background-color: rgb(23, 195, 218);
 }
 
-.home .display .animation {
+.display .animation {
     width: 50%;
     height: 400px;
 
 
 }
 
-.home .display .animation i {
+.display .animation i {
     font-size: 400px;
     margin: 100px;
     animation: ani2 1.5s infinite;
@@ -184,7 +177,7 @@
     }
 }
 
-.home .div2 {
+.div2 {
 
     width: 100%;
     height: 170px;
@@ -194,7 +187,7 @@
     background-color: rgba(200, 177, 177, 0.227);
 }
 
-.home .div2 img {
+.div2 img {
     width: 100px;
     height: 100px;
     margin: 50px;
@@ -202,39 +195,38 @@
 
 }
 
-.home .div2 img:hover {
+.div2 img:hover {
     transform: scale(1.2, 1.2);
 }
 
-.home .how {
+.how {
     width: 100%;
     height: 50px;
     text-align: center;
     border-bottom: solid black 1px;
 }
 
-
-.home .how h2 {
+.how h2 {
     margin: 50px;
     font-size: 40px;
     color: darkslategrey;
 }
 
-.home .div3 {
+.div3 {
     width: 100%;
     display: flex;
 }
 
-.home .div3 img {
+.div3 img {
     margin: 40px;
 }
 
-.home .div3 p {
+.div3 p {
     margin: 40px;
     font-size: 20px;
 }
 
-.home .div3 button {
+.div3 button {
     width: 160px;
     height: 45px;
     background-color: #fff;
@@ -248,18 +240,18 @@
     transition: all 1s;
 }
 
-.home .div3 button #logo {
+.div3 button #logo {
     color: orange;
     position: relative;
     right: 2px;
 }
 
-.home .div3 button:hover {
+.div3 button:hover {
     background-color: orange;
     color: #fff;
 }
 
-.home .who {
+.who {
     width: 100%;
     height: 50px;
     text-align: center;
@@ -268,14 +260,13 @@
 
 }
 
-
-.home .who h3 {
+.who h3 {
     margin: 50px;
     font-size: 40px;
     color: darkslategrey;
 }
 
-.home .div4 {
+.div4 {
     font-size: 20px;
     display: flex;
     justify-content: space-around;
@@ -283,7 +274,7 @@
     height: 230px;
 }
 
-.home .div4 .par1 {
+.div4 .par1 {
     width: 50%;
     height: 300px;
 
@@ -291,31 +282,31 @@
 
 }
 
-.home .div4 .par1 p {
+.div4 .par1 p {
 
     margin: 0px 50px 20px 70px
 }
 
-.home .div4 .par1 ul {
+.div4 .par1 ul {
     margin-left: 90px;
     list-style-type: none;
 }
 
-.home .div4 .par1 ul li {
+.div4 .par1 ul li {
     margin-top: 10px;
 }
 
-.home .div4 .par2 {
+.div4 .par2 {
     width: 50%;
     height: 300px;
 
 }
 
-.home .div4 .par2 p {
+.div4 .par2 p {
     margin-right: 100px;
 }
 
-.home .div4 .par2 button {
+.div4 .par2 button {
     width: 160px;
     height: 45px;
     margin-top: 30px;
@@ -328,18 +319,18 @@
     font-size: 15px;
 }
 
-.home .div4 .par2 button:hover {
+.div4 .par2 button:hover {
     background-color: orange;
     color: #fff;
 }
 
-.home .color {
+.color {
     width: 100%;
     height: 1550px;
     background-color: rgba(200, 177, 177, 0.227);
 }
 
-.home .cate {
+.cate {
     width: 100%;
     height: 150px;
     text-align: center;
@@ -347,13 +338,13 @@
 
 }
 
-.home .cate h4 {
+.cate h4 {
     font-size: 40px;
     color: darkslategrey;
     padding: 60px 0px;
 }
 
-.home .div5 {
+.div5 {
     width: 90%;
     height: 900px;
     margin: auto;
@@ -364,7 +355,7 @@
     justify-content: space-around;
 }
 
-.home .div5 .d1 {
+.div5 .d1 {
     width: 430px;
     height: 290px;
     border-radius: 30px;
@@ -374,11 +365,11 @@
 
 }
 
-.home .div5 .d1:hover {
+.div5 .d1:hover {
     transform: translatey(-10px);
 }
 
-.home .div5 .d1 h5 {
+.div5 .d1 h5 {
     background-color: orange;
     color: #fff;
     width: 100%;
@@ -387,13 +378,13 @@
 
 }
 
-.home .div5 .d1 img {
+.div5 .d1 img {
     width: 100%;
     height: 100%;
     border-radius: 30px;
 }
 
-.home .brands {
+.brands {
     width: 100%;
     height: 150px;
     text-align: center;
@@ -401,23 +392,23 @@
     justify-content: space-between;
 }
 
-.home .brands h6 {
+.brands h6 {
     font-size: 40px;
     color: darkslategrey;
     border-bottom: solid black 1px;
 }
 
-.home .brands p {
+.brands p {
     margin: 15px 0px;
 }
 
-.home .brands img {
+.brands img {
     width: 250px;
     height: 250px;
     margin: 40px 80px;
 }
 
-.home .contact {
+.contact {
     width: 100%;
     height: 100px;
     text-align: center;
@@ -426,29 +417,29 @@
 
 }
 
-.home .contact h6 {
+.contact h6 {
     font-size: 40px;
     color: darkslategrey;
     border-bottom: solid 1px black;
 }
 
-.home .contact p {
+.contact p {
     margin: 30px 40px;
 }
 
-.home .div6 {
+.div6 {
     width: 100%;
     height: auto;
     display: flex;
 }
 
-.home .div6 img {
+.div6 img {
     width: 700px;
     height: 500px;
     margin: 0px 0px 40px 50px;
 }
 
-.home .div6 table {
+.div6 table {
     width: 600px;
     height: 500px;
     margin-left: 30px;
@@ -461,7 +452,7 @@
 
 }
 
-.home .div6 table tr {
+.div6 table tr {
 
     margin: 10px;
     position: relative;
@@ -469,7 +460,7 @@
 
 }
 
-.home .div6 table tr td input {
+.div6 table tr td input {
     position: relative;
     bottom: 30px;
     left: 5px;
@@ -477,7 +468,7 @@
     border: orange solid 1px;
 }
 
-.home .div6 table tr th textarea {
+.div6 table tr th textarea {
     width: 100%;
     height: 60%;
     padding: auto;
@@ -487,7 +478,7 @@
 
 }
 
-.home .div6 table tr td button {
+.div6 table tr td button {
     position: relative;
     bottom: 40px;
     width: 190px;
@@ -502,30 +493,30 @@
 
 }
 
-.home .div6 table tr #button :hover {
+.div6 table tr #button :hover {
     background-color: rgb(23, 195, 218);
 }
 
-.home .social {
+.social {
     width: 100%;
     height: 200px;
 
 
 }
 
-.home .social #h7 {
+.social #h7 {
     margin: 20px;
     font-size: 20px;
     color: darkslategrey;
 
 }
 
-.home .social p {
+.social p {
     margin: 20px;
     font-size: 15px;
 }
 
-.home .social i {
+.social i {
     margin: 10px 0px 3px 20px;
     font-size: 30px;
     color: orange;
@@ -533,13 +524,13 @@
 
 }
 
-.home .social i:hover {
+.social i:hover {
     color: rgb(23, 195, 218);
     ;
 
 }
 
-.home .end {
+footer {
     width: 100%;
     height: 150px;
     background-color: darkslategrey;
@@ -548,33 +539,35 @@
     color: #fff;
 }
 
-.home .end p {
+footer p {
     padding: 30px 90px;
     font-size: 20px;
 }
 
-.home .end #text {
+footer #text {
     margin: 0px 0px 0px 400px;
 }
 
-.home .end #text a {
+footer #text a {
     text-decoration: none;
     color: white;
 }
 
-.home .end #text a:hover {
+footer #text a:hover {
     color: blue;
 }
 
 @media (max-width:760px) {
-    .dark{
+    .dark {
         background-color: rgba(0, 0, 0, 0.932);
         color: #fff;
     }
-    .home{
+
+    body {
         overflow-x: hidden;
     }
-    .home .nav {
+
+    nav {
         background-color: white;
         box-shadow: 0 10px 60px black;
         display: flex;
@@ -588,11 +581,13 @@
 
 
     }
-    .home .nav i{
+
+    nav i {
         position: relative;
         right: 0px;
     }
-    .home .nav #text {
+
+    nav #text {
         color: black;
         text-decoration: none;
         font-size: 20px;
@@ -601,7 +596,7 @@
         right: 100px;
     }
 
-    .home .nav ul {
+    nav ul {
         display: none;
         list-style-type: none;
         position: relative;
@@ -611,20 +606,20 @@
 
     }
 
-    .home .display {
+    .display {
         width: 100%;
         height: 600px;
         display: block;
     }
 
-    .home .display .div1 {
+    .display .div1 {
         width: 310px;
         height: 200px;
 
 
     }
 
-    .home .display .div1 h1 {
+    .display .div1 h1 {
         font-size: 30px;
         position: relative;
         right: 60px;
@@ -632,7 +627,7 @@
 
     }
 
-    .home .display .div1 p {
+    .display .div1 p {
         font-size: 25px;
         color: gray;
         position: relative;
@@ -641,7 +636,7 @@
 
     }
 
-    .home .display .div1 a button {
+    .display .div1 a button {
         width: 150px;
         height: 45px;
         border-radius: 60px;
@@ -656,7 +651,8 @@
         right: 60px;
 
     }
-    .home .display .div1 .mode{
+
+    .display .div1 .mode {
         position: relative;
         right: 90px;
         width: 85px;
@@ -669,18 +665,18 @@
         margin-bottom: 30px;
     }
 
-    .home .display .div1 a button:hover {
+    .display .div1 a button:hover {
         background-color: rgb(23, 195, 218);
     }
 
-    .home .display .animation {
+    .display .animation {
         width: 50%;
         height: 400px;
 
 
     }
 
-    .home .display .animation i {
+    .display .animation i {
         font-size: 200px;
         margin: 50px;
         margin-top: 400px;
@@ -690,7 +686,7 @@
 
     }
 
-    .home .div2 {
+    .div2 {
 
         width: 355px;
         height: 500px;
@@ -701,7 +697,7 @@
         background-color: rgba(200, 177, 177, 0.227);
     }
 
-    .home .div2 img {
+    .div2 img {
         width: 100px;
         height: 100px;
         margin: 30px 60px 10px 0px;
@@ -711,23 +707,26 @@
 
 
     }
-    .home .div3 {
+
+    .div3 {
         width: 100%;
         display: block;
     }
-    .home .div3 img {
-        
+
+    .div3 img {
+
         width: 355px;
         height: 250px;
         margin: 50px auto;
     }
-    
-    .home .div3 p {
+
+    .div3 p {
         margin: 10px 10px;
         font-size: 20px;
-        
+
     }
-    .home .div3 button {
+
+    .div3 button {
         width: 160px;
         height: 45px;
         background-color: #fff;
@@ -740,49 +739,51 @@
         right: 0px;
         transition: all 1s;
     }
-    .home .div4 {
+
+    .div4 {
         font-size: 20px;
         display: block;
         justify-content: space-around;
         width: 100%;
         height: 230px;
-    
+
         font-size: 17px;
     }
-    .home .div4 .par1 {
+
+    .div4 .par1 {
         width: 340px;
         height: 300px;
-    
-    margin: auto;
-    
-    
+
+        margin: auto;
+
+
     }
-    
-    .home .div4 .par1 p {
-    
-        margin: 10px ;
+
+    .div4 .par1 p {
+
+        margin: 10px;
     }
-    
-    .home .div4 .par1 ul {
+
+    .div4 .par1 ul {
         margin-left: 30px;
         list-style-type: none;
     }
-    
-    .home .div4 .par1 ul li {
+
+    .div4 .par1 ul li {
         margin-top: 15px;
     }
-    
-    .home .div4 .par2 {
+
+    .div4 .par2 {
         width: 340px;
         height: 300px;
         margin: 5px auto;
     }
-    
-    .home .div4 .par2 p {
+
+    .div4 .par2 p {
         margin: auto;
     }
-    
-    .home .div4 .par2 button {
+
+    .div4 .par2 button {
         width: 160px;
         height: 45px;
         margin-top: 30px;
@@ -794,19 +795,22 @@
         border-radius: 5px;
         font-size: 15px;
     }
-    .home .color {
+
+    .color {
         width: 100%;
         height: 4100px;
         background-color: rgba(200, 177, 177, 0.227);
     }
-    .home .cate {
+
+    .cate {
         width: 100%;
         height: 150px;
         text-align: center;
         margin-top: 350px;
-    
+
     }
-    .home .div5 {
+
+    .div5 {
         width: 350px;
         height: 900px;
         margin: auto;
@@ -816,130 +820,135 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
-    .home .div5 .d1 {
+
+    .div5 .d1 {
         width: 430px;
         height: 290px;
         border-radius: 30px;
         margin: 10px 10px 10px 10px;
         position: relative;
         transition: all 0.5s;
-    
+
     }
-    .home .brands {
+
+    .brands {
         width: 350px;
         height: 150px;
         text-align: center;
         margin-top: 1890px;
         justify-content: space-between;
     }
-    .home .brands h6 {
+
+    .brands h6 {
         font-size: 40px;
         color: darkslategrey;
         border-bottom: solid black 1px;
     }
-    
-    .home .brands p {
+
+    .brands p {
         margin: 15px 0px;
     }
-    
-    .home .brands img {
+
+    .brands img {
         width: 250px;
         height: 250px;
         margin: 30px 50px;
     }
-    .home .contact {
+
+    .contact {
         width: 100%;
         height: 100px;
         text-align: center;
         margin-top: 100px;
         margin-bottom: 30px;
-    
+
     }
 
-    .home .div6 {
+    .div6 {
         width: 100%;
         height: auto;
         display: block;
     }
-    
-.home .div6 img {
-    width: 354px;
-    height: 300px;
-    margin: 90px 0px 40px 0px;
+
+    .div6 img {
+        width: 354px;
+        height: 300px;
+        margin: 90px 0px 40px 0px;
+    }
+
+    .div6 table {
+        width: 190px;
+        height: 500px;
+        margin-left: 2px;
+        box-shadow: 0px 0px 7px black;
+        border-top: solid orange 3px;
+        border-bottom: solid orange 3px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .div6 table tr {
+
+        margin: 0px;
+        position: relative;
+
+
+    }
+
+    .div6 table tr td input {
+        position: relative;
+        bottom: 30px;
+        left: 5px;
+        padding: 0px 7px 20px 0px;
+        border: orange solid 1px;
+    }
+
+    .div6 table tr th textarea {
+        width: 300px;
+        height: 60%;
+        padding: auto;
+        position: relative;
+        bottom: 50px;
+        border: orange solid 1px;
+
+    }
+
+    .div6 table tr td button {
+        position: relative;
+        bottom: 40px;
+        width: 190px;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        background-color: orange;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 1s;
+
+    }
+
+    footer {
+        width: 355px;
+        height: 210px;
+        background-color: darkslategrey;
+        display: block;
+
+    }
+
+    footer p {
+        padding: 16px 0px;
+        font-size: 18px;
+    }
+
+    footer #text {
+        margin: 30px 0px 0px 10px;
+    }
+
+    footer #text a {
+        text-decoration: none;
+        color: white;
+    }
+
+
 }
-
-.home .div6 table {
-    width: 190px;
-    height: 500px;
-    margin-left: 2px;
-    box-shadow: 0px 0px 7px black;
-    border-top: solid orange 3px;
-    border-bottom: solid orange 3px;
-    font-size: 25px;
-    text-align: center;}
-    
-.home .div6 table tr {
-
-    margin: 0px;
-    position: relative;
-
-
-}
-
-.home .div6 table tr td input {
-    position: relative;
-    bottom: 30px;
-    left: 5px;
-    padding: 0px 7px 20px 0px;
-    border: orange solid 1px;
-}
-
-.home .div6 table tr th textarea {
-    width: 300px;
-    height: 60%;
-    padding: auto;
-    position: relative;
-    bottom: 50px;
-    border: orange solid 1px;
-
-}
-
-.home .div6 table tr td button {
-    position: relative;
-    bottom: 40px;
-    width: 190px;
-    height: 50px;
-    border-radius: 60px;
-    border: none;
-    background-color: orange;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    transition: all 1s;
-
-}
-.home .end {
-    width: 355px;
-    height: 210px;
-    background-color: darkslategrey;
-    display: block;
-    
-}
-.home .end p {
-    padding: 16px 0px;
-    font-size: 18px;
-}
-
-.home .end #text {
-    margin: 30px 0px 0px 10px;
-}
-
-.home .end #text a {
-    text-decoration: none;
-    color:white;
-}
-
-
-}
-
