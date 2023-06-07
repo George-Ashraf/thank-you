@@ -465,7 +465,7 @@ header .menu-toggle {
     margin: 0px 0px 40px 50px;
 }
 
-.div6 table {
+.div6 .form{
     width: 600px;
     height: 500px;
     margin-left: 30px;
@@ -474,39 +474,51 @@ header .menu-toggle {
     border-bottom: solid orange 3px;
     font-size: 25px;
     text-align: center;
-
-
 }
 
-.div6 table tr {
-
-    margin: 10px;
-    position: relative;
-
-
-}
-
-.div6 table tr td input {
-    position: relative;
-    bottom: 30px;
-    left: 5px;
-    padding: 0px 100px 20px 0px;
-    border: orange solid 1px;
-}
-
-.div6 table tr th textarea {
+.div6 .form .form-row { 
+    display: flex;
     width: 100%;
-    height: 60%;
-    padding: auto;
-    position: relative;
-    bottom: 50px;
-    border: orange solid 1px;
-
+    height: auto;
+}
+.div6 .form .form-row .form-group {
+    width: 100%;
+    height: auto;
+} 
+.div6 .form .form-row .form-group input {
+    width: 90%;
+    height: 35px;
 }
 
-.div6 table tr td button {
-    position: relative;
-    bottom: 40px;
+.div6 .form .form-group{
+    padding-top: 10px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.div6 .form .form-group label{
+color: black;
+font-weight: bold;
+}
+
+.div6 .form .form-group input{
+width: 100%;
+height: 25px;
+}
+.div6 .form .form-group textarea{
+width: 100%;
+height: 200px;
+}
+
+
+.div6 .form .button{
+    margin:50px auto  0px auto;
+    width: 190px;
+    height: auto;
+}
+.div6 .form .button button{
+  
+
     width: 190px;
     height: 50px;
     border-radius: 60px;
@@ -517,11 +529,16 @@ header .menu-toggle {
     font-weight: bold;
     transition: all 1s;
 
+
+}
+.div6 .form .button button:hover{
+cursor: pointer;
+background-color: rgb(23, 195, 218);
+
 }
 
-.div6 table tr #button :hover {
-    background-color: rgb(23, 195, 218);
-}
+
+
 
 .social {
     width: 100%;
@@ -900,57 +917,33 @@ footer #text a:hover {
         margin: 90px 0px 40px 0px;
     }
 
-    .div6 table {
-        width: 190px;
-        height: 500px;
-        margin-left: 2px;
-        box-shadow: 0px 0px 7px black;
-        border-top: solid orange 3px;
-        border-bottom: solid orange 3px;
-        font-size: 25px;
-        text-align: center;
+  
+    
+  
+    
+    .div6 .form{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        padding-bottom: 30px;
+      
     }
-
-    .div6 table tr {
-
-        margin: 0px;
-        position: relative;
-
-
+    
+    .div6 .form .form-row { 
+        display: block;
+     
     }
+    .div6 .form .form-row .form-group {
+        width: 100%;
+        height: auto;
+        
+    } 
+ 
+   
+    
+    
+  
 
-    .div6 table tr td input {
-        position: relative;
-        bottom: 30px;
-        left: 5px;
-        padding: 0px 7px 20px 0px;
-        border: orange solid 1px;
-    }
-
-    .div6 table tr th textarea {
-        width: 300px;
-        height: 60%;
-        padding: auto;
-        position: relative;
-        bottom: 50px;
-        border: orange solid 1px;
-
-    }
-
-    .div6 table tr td button {
-        position: relative;
-        bottom: 40px;
-        width: 190px;
-        height: 50px;
-        border-radius: 60px;
-        border: none;
-        background-color: orange;
-        color: white;
-        font-size: 15px;
-        font-weight: bold;
-        transition: all 1s;
-
-    }
 
     footer {
         height: 210px;
