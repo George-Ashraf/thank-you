@@ -127,23 +127,23 @@ header .menu-toggle {
 
 }
 
-.display .div1 {
+.display .home {
     width: 50%;
     height: 400px;
     margin: 100px;
 
 }
 
-.display .div1 h1 {
+.display .home h1 {
     font-size: 60px;
 }
 
-.display .div1 p {
+.display .home p {
     font-size: 30px;
     color: gray;
 }
 
-.display .div1 .mode {
+.display .home .mode {
     position: relative;
     right: 90px;
     width: 85px;
@@ -155,7 +155,7 @@ header .menu-toggle {
     font-weight: bold;
 }
 
-.display .div1 a button {
+.display .home a button {
     width: 150px;
     height: 45px;
     border-radius: 60px;
@@ -168,7 +168,7 @@ header .menu-toggle {
     margin-top: 50px;
 }
 
-.display .div1 a button:hover {
+.display .home a button:hover {
     background-color: rgb(23, 195, 218);
 }
 
@@ -203,7 +203,7 @@ header .menu-toggle {
     }
 }
 
-.div2 {
+.sponser {
 
     width: 100%;
     height: 170px;
@@ -213,7 +213,7 @@ header .menu-toggle {
     background-color: rgba(200, 177, 177, 0.227);
 }
 
-.div2 img {
+.sponser img {
     width: 100px;
     height: 100px;
     margin: 50px;
@@ -221,7 +221,7 @@ header .menu-toggle {
 
 }
 
-.div2 img:hover {
+.sponser img:hover {
     transform: scale(1.2, 1.2);
 }
 
@@ -238,21 +238,21 @@ header .menu-toggle {
     color: darkslategrey;
 }
 
-.div3 {
+.useing {
     width: 100%;
     display: flex;
 }
 
-.div3 img {
+.useing img {
     margin: 40px;
 }
 
-.div3 p {
+.useing p {
     margin: 40px;
     font-size: 20px;
 }
 
-.div3 button {
+.useing button {
     width: 160px;
     height: 45px;
     background-color: #fff;
@@ -266,13 +266,13 @@ header .menu-toggle {
     transition: all 1s;
 }
 
-.div3 button #logo {
+.useing button #logo {
     color: orange;
     position: relative;
     right: 2px;
 }
 
-.div3 button:hover {
+.useing button:hover {
     background-color: orange;
     color: #fff;
 }
@@ -636,14 +636,14 @@ footer #text a:hover {
         display: block;
     }
 
-    .display .div1 {
+    .display .home {
         width: 310px;
         height: 200px;
 
 
     }
 
-    .display .div1 h1 {
+    .display .home h1 {
         font-size: 30px;
         position: relative;
         right: 60px;
@@ -651,7 +651,7 @@ footer #text a:hover {
 
     }
 
-    .display .div1 p {
+    .display .home p {
         font-size: 25px;
         color: gray;
         position: relative;
@@ -660,7 +660,7 @@ footer #text a:hover {
 
     }
 
-    .display .div1 a button {
+    .display .home a button {
         width: 150px;
         height: 45px;
         border-radius: 60px;
@@ -676,7 +676,7 @@ footer #text a:hover {
 
     }
 
-    .display .div1 .mode {
+    .display .home .mode {
         position: relative;
         right: 90px;
         width: 85px;
@@ -689,7 +689,7 @@ footer #text a:hover {
         margin-bottom: 30px;
     }
 
-    .display .div1 a button:hover {
+    .display .home a button:hover {
         background-color: rgb(23, 195, 218);
     }
 
@@ -710,9 +710,9 @@ footer #text a:hover {
 
     }
 
-    .div2 {
+    .sponser {
 
-        width: 355px;
+        width: 100%;
         height: 500px;
 
         background-color: red;
@@ -721,7 +721,7 @@ footer #text a:hover {
         background-color: rgba(200, 177, 177, 0.227);
     }
 
-    .div2 img {
+    .sponser img {
         width: 100px;
         height: 100px;
         margin: 30px 60px 10px 0px;
@@ -732,25 +732,25 @@ footer #text a:hover {
 
     }
 
-    .div3 {
+    .useing {
         width: 100%;
         display: block;
     }
 
-    .div3 img {
+    .useing img {
 
         width: 355px;
         height: 250px;
         margin: 50px auto;
     }
 
-    .div3 p {
+    .useing p {
         margin: 10px 10px;
         font-size: 20px;
 
     }
 
-    .div3 button {
+    .useing button {
         width: 160px;
         height: 45px;
         background-color: #fff;
@@ -953,7 +953,6 @@ footer #text a:hover {
     }
 
     footer {
-        width: 355px;
         height: 210px;
         background-color: darkslategrey;
         display: block;
